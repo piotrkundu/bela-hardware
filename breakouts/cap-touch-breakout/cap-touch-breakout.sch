@@ -1,0 +1,500 @@
+EESchema Schematic File Version 4
+LIBS:cap-touch-breakout-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	8900 4100 9200 4100
+Wire Wire Line
+	8800 4200 9200 4200
+Wire Wire Line
+	8700 4300 9200 4300
+Wire Wire Line
+	8300 3500 8300 2500
+Wire Wire Line
+	8300 2500 9200 2500
+Wire Wire Line
+	9200 2500 9200 3100
+Wire Wire Line
+	8400 3400 8400 2600
+Wire Wire Line
+	8400 2600 9100 2600
+Wire Wire Line
+	9100 2600 9100 3200
+Wire Wire Line
+	9100 3200 9200 3200
+Wire Wire Line
+	9000 4000 9200 4000
+Wire Wire Line
+	5000 3600 4900 3600
+Wire Wire Line
+	5000 3700 4900 3700
+Text Label 6000 3600 0    70   ~ 0
+I2C_SCL
+Wire Wire Line
+	3200 3600 3100 3600
+Text Label 3175 3600 0    50   ~ 0
+I2C_SCL
+Wire Wire Line
+	2700 4300 2900 4300
+Text Label 2500 4200 2    50   ~ 0
+I2C_SCL
+Text Label 6000 3700 0    70   ~ 0
+I2C_SDA
+Wire Wire Line
+	3200 3700 3100 3700
+Text Label 3175 3700 0    50   ~ 0
+I2C_SDA
+Wire Wire Line
+	2700 4400 2900 4400
+Text Label 2500 4300 2    50   ~ 0
+I2C_SDA
+Wire Wire Line
+	4900 5800 5000 5800
+Wire Wire Line
+	3500 2500 3500 2600
+Wire Wire Line
+	3500 2600 3500 2700
+Wire Wire Line
+	3500 2600 3300 2600
+Connection ~ 3500 2600
+Text Label 3500 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 3800 5400 3900
+Wire Wire Line
+	5400 3900 5400 4000
+Connection ~ 5400 3900
+Connection ~ 5400 4000
+Text Label 5400 3800 0    10   ~ 0
+GND
+Wire Wire Line
+	2800 2700 2800 2800
+Text Label 2800 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	2300 3400 2500 3400
+Wire Wire Line
+	2500 3400 2500 3600
+Text Label 2300 3400 0    10   ~ 0
+GND
+Wire Wire Line
+	2700 4100 2900 4100
+Text Label 2050 4400 0    10   ~ 0
+GND
+Wire Wire Line
+	4900 3800 5000 3800
+Wire Wire Line
+	4900 3900 5000 3900
+Wire Wire Line
+	4900 4000 5000 4000
+Wire Wire Line
+	3500 2300 3500 2400
+Wire Wire Line
+	3300 2300 3500 2300
+Connection ~ 3500 2300
+Text Label 3500 2300 0    10   ~ 0
+VCC
+Wire Wire Line
+	2800 2300 2800 2400
+Text Label 2800 2300 0    10   ~ 0
+VCC
+Wire Wire Line
+	2300 3700 2500 3700
+Text Label 2300 3700 0    10   ~ 0
+VCC
+Wire Wire Line
+	2700 4200 2900 4200
+Text Label 2650 3950 0    10   ~ 0
+VCC
+Wire Wire Line
+	3300 2900 3500 2900
+Text Label 3400 2900 0    70   ~ 0
+XRES
+Wire Wire Line
+	2300 3800 2500 3800
+Text Label 2300 3800 2    50   ~ 0
+XRES
+Wire Wire Line
+	2500 4600 2700 4600
+Wire Wire Line
+	2700 4600 2900 4600
+Text Label 2500 4600 2    50   ~ 0
+XRES
+Connection ~ 2700 4600
+Wire Wire Line
+	8500 3200 8500 3400
+Wire Wire Line
+	8500 3400 9200 3400
+Wire Wire Line
+	8600 3100 8600 3500
+Wire Wire Line
+	8600 3500 9200 3500
+Wire Wire Line
+	8700 3000 8700 3600
+Wire Wire Line
+	8700 3600 9200 3600
+Wire Wire Line
+	8800 2900 8800 3700
+Wire Wire Line
+	8800 3700 9200 3700
+Wire Wire Line
+	8900 2800 8900 3800
+Wire Wire Line
+	8900 3800 9200 3800
+Wire Wire Line
+	9000 2700 9000 3900
+Wire Wire Line
+	9000 3900 9200 3900
+Wire Wire Line
+	3200 3800 3100 3800
+Text Label 3175 3800 0    50   ~ 0
+EVENT
+Wire Wire Line
+	4900 2300 5000 2300
+Text Label 5000 2300 0    50   ~ 0
+EVENT
+Wire Wire Line
+	2500 4500 2700 4500
+Wire Wire Line
+	2700 4500 2900 4500
+Text Label 2500 4500 2    50   ~ 0
+EVENT
+Connection ~ 2700 4500
+$Comp
+L cap-touch-breakout-eagle-import:C-USC0603 C1
+U 1 0 31C5C65F3A37D600
+P 2800 2600
+F 0 "C1" H 2840 2625 59  0000 L BNN
+F 1 "C-USC0603" H 2840 2435 59  0000 L BNN
+F 2 "cap-touch-breakout:C0603" H 2800 2600 50  0001 C CNN
+F 3 "" H 2800 2600 50  0001 C CNN
+	1    2800 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:R-EU_R0603 R1
+U 1 0 469CAB24EC893FD4
+P 5200 3600
+F 0 "R1" H 5000 3600 59  0000 L BNN
+F 1 "R-EU_R0603" H 5300 3600 59  0000 L BNN
+F 2 "cap-touch-breakout:R0603" H 5200 3600 50  0001 C CNN
+F 3 "" H 5200 3600 50  0001 C CNN
+	1    5200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:R-EU_R0603 R2
+U 1 0 8943FDCC711A3F32
+P 5200 3700
+F 0 "R2" H 5000 3700 59  0000 L BNN
+F 1 "R-EU_R0603" H 5300 3700 59  0000 L BNN
+F 2 "cap-touch-breakout:R0603" H 5200 3700 50  0001 C CNN
+F 3 "" H 5200 3700 50  0001 C CNN
+	1    5200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:CY8C206X6A IC1
+U 1 0 40716F7D70C115B1
+P 4200 4000
+F 0 "IC1" H 4200 4000 50  0001 C CNN
+F 1 "CY8C206X6A" H 4200 4000 50  0001 C CNN
+F 2 "cap-touch-breakout:QFN48-LEADS" H 4200 4000 50  0001 C CNN
+F 3 "" H 4200 4000 50  0001 C CNN
+	1    4200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:C-USC0603 C2
+U 1 0 8BD603187B1234C5
+P 5000 5900
+F 0 "C2" H 5040 5925 59  0000 L BNN
+F 1 "C-USC0603" H 5040 5735 59  0000 L BNN
+F 2 "cap-touch-breakout:C0603" H 5000 5900 50  0001 C CNN
+F 3 "" H 5000 5900 50  0001 C CNN
+	1    5000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:GND #GND1
+U 1 0 BD537C42A7315E89
+P 5000 6200
+F 0 "#GND1" H 5000 6200 50  0001 C CNN
+F 1 "GND" H 4900 6100 59  0000 L BNN
+F 2 "" H 5000 6200 50  0001 C CNN
+F 3 "" H 5000 6200 50  0001 C CNN
+	1    5000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:GND #GND2
+U 1 0 AB5AB1D6C92C8F3B
+P 3300 2700
+F 0 "#GND2" H 3300 2700 50  0001 C CNN
+F 1 "GND" H 3200 2600 59  0000 L BNN
+F 2 "" H 3300 2700 50  0001 C CNN
+F 3 "" H 3300 2700 50  0001 C CNN
+	1    3300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:SOLDER_JUMPER U$2
+U 1 0 803D2E8F6197D135
+P 5200 3800
+F 0 "U$2" H 5200 3750 59  0000 L BNN
+F 1 "SOLDER_JUMPER" H 5450 3800 59  0000 L BNN
+F 2 "cap-touch-breakout:SOLDER_JUMPER" H 5200 3800 50  0001 C CNN
+F 3 "" H 5200 3800 50  0001 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:SOLDER_JUMPER U$3
+U 1 0 F3C0F9832AECCF64
+P 5200 3900
+F 0 "U$3" H 5200 3850 59  0000 L BNN
+F 1 "SOLDER_JUMPER" H 5450 3900 59  0000 L BNN
+F 2 "cap-touch-breakout:SOLDER_JUMPER" H 5200 3900 50  0001 C CNN
+F 3 "" H 5200 3900 50  0001 C CNN
+	1    5200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:SOLDER_JUMPER U$4
+U 1 0 C4F885289A709B56
+P 5200 4000
+F 0 "U$4" H 5200 3950 59  0000 L BNN
+F 1 "SOLDER_JUMPER" H 5450 4000 59  0000 L BNN
+F 2 "cap-touch-breakout:SOLDER_JUMPER" H 5200 4000 50  0001 C CNN
+F 3 "" H 5200 4000 50  0001 C CNN
+	1    5200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:GND #GND3
+U 1 0 3178D5F9E2B99DEF
+P 5400 4100
+F 0 "#GND3" H 5400 4100 50  0001 C CNN
+F 1 "GND" H 5300 4000 59  0000 L BNN
+F 2 "" H 5400 4100 50  0001 C CNN
+F 3 "" H 5400 4100 50  0001 C CNN
+	1    5400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:GND #GND4
+U 1 0 382A82296AE2E73F
+P 2800 2900
+F 0 "#GND4" H 2800 2900 50  0001 C CNN
+F 1 "GND" H 2700 2800 59  0000 L BNN
+F 2 "" H 2800 2900 50  0001 C CNN
+F 3 "" H 2800 2900 50  0001 C CNN
+	1    2800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:VCC #P+1
+U 1 0 AABA37FE48DD0DF0
+P 3300 2200
+F 0 "#P+1" H 3300 2200 50  0001 C CNN
+F 1 "VCC" V 3200 2100 59  0000 L BNN
+F 2 "" H 3300 2200 50  0001 C CNN
+F 3 "" H 3300 2200 50  0001 C CNN
+	1    3300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:VCC #P+2
+U 1 0 FF7F0D16534F544F
+P 2800 2200
+F 0 "#P+2" H 2800 2200 50  0001 C CNN
+F 1 "VCC" V 2700 2100 59  0000 L BNN
+F 2 "" H 2800 2200 50  0001 C CNN
+F 3 "" H 2800 2200 50  0001 C CNN
+	1    2800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:GND #GND5
+U 1 0 DAC017DF6CC61BFB
+P 2300 3500
+F 0 "#GND5" H 2300 3500 50  0001 C CNN
+F 1 "GND" H 2200 3400 59  0000 L BNN
+F 2 "" H 2300 3500 50  0001 C CNN
+F 3 "" H 2300 3500 50  0001 C CNN
+	1    2300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:VCC #P+3
+U 1 0 4985FDE44F0D6BCD
+P 2300 3600
+F 0 "#P+3" H 2300 3600 50  0001 C CNN
+F 1 "VCC" V 2200 3500 59  0000 L BNN
+F 2 "" H 2300 3600 50  0001 C CNN
+F 3 "" H 2300 3600 50  0001 C CNN
+	1    2300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:GND #GND6
+U 1 0 217C813E6DBAC010
+P 2050 4500
+F 0 "#GND6" H 2050 4500 50  0001 C CNN
+F 1 "GND" H 1950 4400 59  0000 L BNN
+F 2 "" H 2050 4500 50  0001 C CNN
+F 3 "" H 2050 4500 50  0001 C CNN
+	1    2050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:VCC #P+4
+U 1 0 56C7E6940DCAEBA
+P 2650 3800
+F 0 "#P+4" H 2650 3800 50  0001 C CNN
+F 1 "VCC" V 2550 3700 59  0000 L BNN
+F 2 "" H 2650 3800 50  0001 C CNN
+F 3 "" H 2650 3800 50  0001 C CNN
+	1    2650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:M13 JP3
+U 1 0 9E0F7BB248CD7B62
+P 9600 3700
+F 0 "JP3" H 9600 4430 59  0000 L BNN
+F 1 "M13" H 9600 2900 59  0000 L BNN
+F 2 "cap-touch-breakout:1X13" H 9600 3700 50  0001 C CNN
+F 3 "" H 9600 3700 50  0001 C CNN
+	1    9600 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:M13 JP4
+U 1 0 E4B5C9E224D01FBA
+P 8600 4700
+F 0 "JP4" H 8600 5430 59  0000 L BNN
+F 1 "M13" H 8600 3900 59  0000 L BNN
+F 2 "cap-touch-breakout:1X13" H 8600 4700 50  0001 C CNN
+F 3 "" H 8600 4700 50  0001 C CNN
+	1    8600 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L cap-touch-breakout-eagle-import:M06SILK_FEMALE_PTH JP1
+U 1 0 E5C11E09A75A2B47
+P 2900 4300
+F 0 "JP1" H 2700 4730 59  0000 L BNN
+F 1 "M06SILK_FEMALE_PTH" H 2400 4850 59  0000 L BNN
+F 2 "cap-touch-breakout:1X06" H 2900 4300 50  0001 C CNN
+F 3 "" H 2900 4300 50  0001 C CNN
+	1    2900 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 3500 8300 3500
+Wire Wire Line
+	4900 3400 8400 3400
+Wire Wire Line
+	4900 3200 8500 3200
+Wire Wire Line
+	4900 3100 8600 3100
+Wire Wire Line
+	4900 3000 8700 3000
+Wire Wire Line
+	4900 2900 8800 2900
+Wire Wire Line
+	4900 2800 8900 2800
+Wire Wire Line
+	4900 2700 9000 2700
+Wire Wire Line
+	4900 3300 9200 3300
+Wire Wire Line
+	4900 4100 8200 4100
+Wire Wire Line
+	4900 4200 8200 4200
+Wire Wire Line
+	4900 4300 8200 4300
+Wire Wire Line
+	4900 4400 8200 4400
+Wire Wire Line
+	4900 4500 8200 4500
+Wire Wire Line
+	4900 4600 8200 4600
+Wire Wire Line
+	4900 4700 8200 4700
+Wire Wire Line
+	4900 4800 8200 4800
+Wire Wire Line
+	4900 4900 8200 4900
+Wire Wire Line
+	4900 5000 8200 5000
+Wire Wire Line
+	4900 5100 8200 5100
+Wire Wire Line
+	4900 5200 8200 5200
+Wire Wire Line
+	4900 5300 8200 5300
+Wire Wire Line
+	8200 5400 8200 5500
+Wire Wire Line
+	8200 5500 8700 5500
+Wire Wire Line
+	8700 5500 8700 4300
+Wire Wire Line
+	4900 5400 8200 5400
+Wire Wire Line
+	8150 5500 8150 5600
+Wire Wire Line
+	8150 5600 8800 5600
+Wire Wire Line
+	8800 5600 8800 4200
+Wire Wire Line
+	4900 5500 8150 5500
+Wire Wire Line
+	8100 5600 8100 5700
+Wire Wire Line
+	8100 5700 8900 5700
+Wire Wire Line
+	4900 5600 8100 5600
+Wire Wire Line
+	8900 5700 8900 4100
+Wire Wire Line
+	8050 5700 8050 5800
+Wire Wire Line
+	8050 5800 9000 5800
+Wire Wire Line
+	4900 5700 8050 5700
+Wire Wire Line
+	9000 5800 9000 4000
+Wire Wire Line
+	5400 3600 6000 3600
+Wire Wire Line
+	5400 3700 6000 3700
+Wire Wire Line
+	2700 4100 2650 4100
+Wire Wire Line
+	2650 4100 2650 3900
+Connection ~ 2700 4100
+Wire Wire Line
+	2700 4200 2500 4200
+Connection ~ 2700 4200
+Wire Wire Line
+	2700 4300 2500 4300
+Connection ~ 2700 4300
+Wire Wire Line
+	2700 4400 2050 4400
+Connection ~ 2700 4400
+$EndSCHEMATC

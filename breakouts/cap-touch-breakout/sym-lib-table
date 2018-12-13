@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name cap-touch-breakout-eagle-import)(type Legacy)(uri ${KIPRJMOD}/cap-touch-breakout-eagle-import.lib)(options "")(descr ""))
+)
